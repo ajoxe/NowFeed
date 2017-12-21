@@ -20,7 +20,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".todo.ToDoActivity" />
-        <activity android:name=".examplenetworking.RetrofitExampleActivity"></activity>
+        <activity android:name=".examplenetworking.RetrofitExampleActivity" />
+        <activity android:name=".weather.WeatherActivity" />
+        <activity android:name=".tumbler.TumblerActivity"></activity>
     </application>
 
 </manifest>
