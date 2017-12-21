@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".todo.ToDoActivity"></activity>
+        <activity android:name=".todo.ToDoActivity" />
+        <activity android:name=".examplenetworking.RetrofitExampleActivity"></activity>
     </application>
 
 </manifest>
