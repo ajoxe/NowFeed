@@ -36,6 +36,7 @@ public class ToDoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_to_do);
+        getSupportActionBar().setTitle("My ToDo List");
         mHelper = new TaskDbHelper(this);
         mTaskListView = (ListView) findViewById(R.id.list_todo);
         updateUI();
